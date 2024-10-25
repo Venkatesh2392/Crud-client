@@ -1,0 +1,29 @@
+.navbar {
+    padding: 1rem; 
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold; 
+    color: #ffffff !important; 
+}
+
+.nav-link {
+    color: #f8f9fa !important; 
+    font-weight: 500; 
+    transition: color 0.3s; 
+}
+
+.nav-link:hover {
+    color: #ffc107 !important; 
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #ffc107 !important; 
+    font-weight: bold; 
+}
+
+.container {
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
