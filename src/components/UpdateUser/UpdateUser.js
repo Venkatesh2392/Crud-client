@@ -23,7 +23,7 @@ const UpdateUser = () => {
       }
 
       try {
-        const response = await fetch(`ttp://localhost:5000/api/user/${id}`);
+        const response = await fetch(`https://crud-server-4jps.onrender.com/api/user/${id}`);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -47,7 +47,7 @@ const UpdateUser = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch(`http://localhost:5000/api/user/${id}`, {
+      const response = await fetch(`https://crud-server-4jps.onrender.com//api/user/${id}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json"
